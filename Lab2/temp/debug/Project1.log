@@ -1,0 +1,15 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(376,5): warning MSB8004: Intermediate 目錄結尾不是結尾斜線。這個建置執行個體將會加入此斜線，因為這樣才能正確評估 Intermediate 目錄。
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output 目錄結尾不是結尾斜線。這個建置執行個體將會加入此斜線，因為這樣才能正確評估 Output 目錄。
+  main.c
+c:\c_code\lab2\source\main.c(29): warning C4477: 'fscanf' : 格式字串 '%1f' 需要 'float *' 類型的引數，但 variadic 引數 4 的類型為 'double *'
+  c:\c_code\lab2\source\main.c(29): note: 請考慮在格式字串中使用 '%lf'
+c:\c_code\lab2\source\main.c(54): warning C4477: 'printf' : 格式字串 '%-6s' 需要 'char *' 類型的引數，但 variadic 引數 1 的類型為 'int'
+c:\c_code\lab2\source\main.c(54): warning C4477: 'printf' : 格式字串 '%10s' 需要 'char *' 類型的引數，但 variadic 引數 4 的類型為 'double'
+c:\c_code\lab2\source\main.c(18): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: 請參閱 'fopen' 的宣告
+c:\c_code\lab2\source\main.c(20): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: 請參閱 'fopen' 的宣告
+c:\c_code\lab2\source\main.c(29): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1197): note: 請參閱 'fscanf' 的宣告
+c:\c_code\lab2\source\main.c(42): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: 請參閱 'fopen' 的宣告
